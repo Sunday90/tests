@@ -32,7 +32,7 @@ public class LoginTest {
   public void testLogin() {
 LoginPage lp = new LoginPage(driver);
 lp.Open();
-lp.mailLogon("konstantin.plisov@softlinegroup.com", "Positiveway1");
+lp.mailLogon("test@test.ru", "Test");
 
   }
   
